@@ -6,25 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter Strike 6.9</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
-            <img src="./images/cs.png" style="width: 115px; height: 60px;">
+            GameHub
           </a>
         </div>
         <div class="navbar-end">
+            <a href="https://palringer.herokuapp.com" class="navbar-item">
+                Connect
+            </a>
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link">
                 Games
               </a>
       
               <div class="navbar-dropdown is-right">
-                <a href="/CS6.9/CS6.9/index.html" class="navbar-item">
-                  CS:6.9
+                <a href="#cs6.9" class="navbar-item">
+                  CS:6.9 (Coming Wednesday)
                 </a>
-                <a href="/CS6.9/Interstellar/index.html" class="navbar-item">
+                <a href="#interstellar" class="navbar-item">
                   Interstellar 2D
                 </a>
                 <hr class="navbar-divider">
@@ -35,5 +40,62 @@
             </div>
           </div>
       </nav>
+      <section class="hero is-medium is-dark">
+        <div class="hero-body">
+          <p class="title">
+            Local Multiplayer Games All-in-one.
+          </p>
+          <p class="subtitle">
+            Download the listed games on your system and play with your friends!
+          </p>
+        </div>
+      </section>
+      <section style="padding: 1rem; width: 58rem; margin: 0 auto;">
+          <div class="card" style="margin-bottom: 1rem;">
+            <header class="card-header">
+              <p class="card-header-title">
+                Interstellar 2D
+              </p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                Space-themed 2D multiplayer platformer game. Connect on your local server and play with up to 10 people in one server.
+                <p style="margin-top: 0.5rem; font-weight: bold;">22.5 Megabytes</p>
+                <a class="button is-link" href="./Interstellar/Interstellar.rar" download>
+                    <span class="icon"><svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16V0z"/>
+                      </svg></span>
+                      <span>Get for Windows</span>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Counter Strike 6.9
+              </p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                Low-poly 3D multiplayer third-person shooter game. Connect on your local server and play with up to 20 people in one server.
+                <p style="margin-top: 0.5rem; font-weight: bold;">xx Megabytes</p>
+                <a class="button is-secondary" href="#">
+                    Coming soon!
+                  </a>
+              </div>
+            </div>
+          </div>
+      </section>
 </body>
 </html>
